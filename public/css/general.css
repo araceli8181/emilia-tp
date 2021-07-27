@@ -2,3 +2,15 @@
 body{
     font-family:"Open Sans";
 }
+
+a{
+    text-decoration: none;
+    
+}
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
