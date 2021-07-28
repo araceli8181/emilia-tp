@@ -1,0 +1,53 @@
+.about{
+    background-image: url("/images/emilia-about.jpg");
+    background-size: 76%; /* tamaño de la foto */
+    background-repeat: no-repeat; /* no se repite en la pantalla la misma foto */
+    background-position: right top /* derecha arriba */
+}
+.about header nav{
+    text-align: right;
+}
+.about header nav ul{
+    background-color: rgba(255, 255, 255, 0.5);    /* recuadro de las ul  */
+    padding-top: 10px;         /*  esto es para darle el ancho a background-color de arriba */
+    padding-bottom: 10px;      /* ancho de abajo */
+    padding-right: 5px;
+}
+
+
+.about header nav ul li{
+    display: inline;
+    width: 100px;
+    border-left: 1px solid black;
+    padding-right: 10px;
+    padding-left:10px;
+
+}
+
+.about header nav ul li-list-child{
+    border-right: 1px solid black;
+
+}
+.about header nav ul li a{
+    color: black;
+    text-transform: upercase;
+    
+}
+.about header nav a{
+    color: black;
+}
+
+.about section{
+    margin-left: 30px; /* corre margen a la derecha */
+}
+
+.about h3{
+    color:var(--colorVerde)  /* en general.css guarde el molde en :Root */
+
+}
+.about p{
+    color:var(--colorVerdeOscuro)
+}
+.about .comentario2{
+    margin-top: 50px;
+}

@@ -14,3 +14,16 @@ ul{
 li{
     list-style: none;
 }
+
+h1{
+    font-family:'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 68px; /* tamaño de la letra */
+    font-weight: 700; /* grosor de la letra */
+}
+:root{
+    --colorVerde : #44a391;
+    --colorVerdeOscuro: #91b3ad;
+
+}
+
